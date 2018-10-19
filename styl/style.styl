@@ -1,0 +1,146 @@
+*
+	margin 0
+	padding 0
+	box-sizing border-box
+	font-family: 'Poppins', sans-serif;
+
+ul, ul li
+	list-style-type none
+img
+	max-width 100%
+.wrapper-row
+	.header
+		padding-top 60px
+.main-body-container
+	margin 200px 0
+	h1
+		text-align center
+		font-weight 700
+		margin-bottom 20px
+		font-size 50px
+	p
+		color hsla(208, 11%, 55%, 1)
+		font-size 25px
+		text-align center
+	.main-body-title-row
+		margin-bottom 40px
+	.main-body-img-row
+		margin-bottom 200px
+	.main-body-sign-up-row
+		h1
+			margin-bottom 60px
+		form
+			display flex
+			justify-content space-between
+		input
+			width 61%
+			padding 20px 30px
+			border-radius 10px
+			border 1px solid #e3e3e3
+		button
+			width 35%
+			border-radius 10px
+			color #fff
+			font-weight 700
+			background linear-gradient(180deg, rgba(255,144,214,1) 0%, rgba(255,82,191,1) 100%);
+			border none
+			box-shadow 0 3px 6px 0 #afafaf
+			cursor pointer
+.wrapper-row
+	.footer-cf
+		background-color hsla(192, 100%, 9%, 1)
+		padding-top 100px
+		padding-bottom 60px
+		.logo, .sub-menu
+			margin-bottom 60px
+
+.sub-menu
+	display flex
+	align-items center
+	ul
+		width 100%
+		display flex
+		justify-content space-between
+		margin-bottom 0
+		a
+			color #fff
+			font-size 18px
+
+.social
+	i
+		&:before
+			color #fff
+			font-size 36px
+			margin-right 20px
+.copyright
+	display flex
+	align-items center
+	justify-content flex-end
+	span
+		color #fff
+		font-size 15px
+			
+@media only screen and (max-width: 520px)
+	.wrapper-row
+		.header
+			padding-top 30px
+			.logo
+				padding-left 30px
+	.main-body-container
+		margin 120px 0
+		h1
+			font-size 25px
+		p
+			font-size 12px
+	.main-body-title-row
+		padding 0 15px
+	.main-body-img-row
+		padding 0 15px
+		margin-bottom 120px!important
+	.main-body-sign-up-row
+		h1
+			font-size 21px
+			margin-bottom 40px!important
+		form
+			display flex
+			flex-direction column
+			input
+				width 100%!important
+				margin-bottom 20px
+				padding 15px 20px!important
+				font-size 12px
+			button
+				width 100%!important
+				padding 15px
+				font-size 12px
+	.wrapper-row
+		.footer-cf
+			padding-top 40px
+			.footer-row
+				padding-left 20px
+				.logo
+					display flex
+					order 1
+					margin-bottom 30px
+				.sub-menu
+					display flex
+					order 3
+					ul
+						flex-direction column
+						li
+							margin-bottom 20px
+							a
+								font-size 14px
+				.social
+					display flex
+					order 2
+					margin-bottom 60px
+					i
+						&:before
+							font-size 28px
+				.copyright
+					display flex
+					order 4
+					justify-content center
+					span
+						font-size 12px
